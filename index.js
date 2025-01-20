@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         幻想次元-深色模式
-// @namespace    http://hxcy.top/
-// @version      0.0.1
+// @namespace    https://github.com/huankong233/hxcy.top
+// @version      0.0.2
 // @description  深色模式
 // @author       huan_kong
 // @author       https://huankong.top
@@ -12,6 +12,9 @@
 // @grant        GM_registerMenuCommand
 // @grant        GM_addStyle
 // @run-at       document-start
+// @license MIT
+// @downloadURL https://update.greasyfork.org/scripts/524229/%E5%B9%BB%E6%83%B3%E6%AC%A1%E5%85%83-%E6%B7%B1%E8%89%B2%E6%A8%A1%E5%BC%8F.user.js
+// @updateURL https://update.greasyfork.org/scripts/524229/%E5%B9%BB%E6%83%B3%E6%AC%A1%E5%85%83-%E6%B7%B1%E8%89%B2%E6%A8%A1%E5%BC%8F.meta.js
 // ==/UserScript==
 
 ;(function () {
