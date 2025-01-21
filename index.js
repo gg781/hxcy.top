@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         幻想次元-深色模式
 // @namespace    https://github.com/huankong233/hxcy.top
-// @version      0.0.2
+// @version      0.0.3
 // @description  深色模式
 // @author       huan_kong
 // @author       https://huankong.top
@@ -18,7 +18,12 @@
 // ==/UserScript==
 
 ;(function () {
-  GM_addStyle(`html.dark #main-content {
+  GM_addStyle(`
+html.dark {
+  background: gray;
+}
+
+html.dark #main-content {
   background: none repeat scroll 0 0 #212121;
 }
 

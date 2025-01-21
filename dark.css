@@ -1,3 +1,7 @@
+html.dark {
+  background: gray;
+}
+
 html.dark #main-content {
   background: none repeat scroll 0 0 #212121;
 }
