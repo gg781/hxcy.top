@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         幻想次元-深色模式
 // @namespace    https://github.com/huankong233/hxcy.top
-// @version      0.0.3
+// @version      0.0.4
 // @description  深色模式
 // @author       huan_kong
 // @author       https://huankong.top
@@ -40,13 +40,13 @@ html.dark #top-announce,
 html.dark #post-header {
   background: #373737;
   border-bottom: none;
-  color: gray;
+  color: rgb(200, 200, 200);
 }
 
 html.dark #breadcrumb a,
 html.dark #top-announce a,
 html.dark #post-header a {
-  color: gray;
+  color: rgb(200, 200, 200);
 }
 
 html.dark .widget-content,
@@ -55,27 +55,27 @@ html.dark #archive-head,
 html.dark .widget-title,
 html.dark .su-spoiler-style-fancy {
   background: #2f2f2f !important;
-  color: gray;
+  color: rgb(200, 200, 200);
 }
 
 html.dark .widget-content a {
-  color: gray;
+  color: rgb(200, 200, 200);
 }
 
 html.dark .page-nav a {
-  color: white;
+  color: rgb(200, 200, 200);
   background: #2f2f2f;
 }
 
 html.dark article .more-link {
-  color: white !important;
+  color: rgb(200, 200, 200) !important;
 }
 
 html.dark input.jump-page {
   background: #575757;
   margin-top: 2px;
   width: 30px;
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: rgb(200, 200, 200);
 }
 
 html.dark .su-spoiler-title,
@@ -85,7 +85,7 @@ html.dark .sc_act,
 html.dark .su-box-content,
 html.dark blockquote {
   background: #575757;
-  color: gray;
+  color: rgb(200, 200, 200);
 }
 
 html.dark .sc_act:hover {
@@ -126,7 +126,7 @@ html.dark #user-menu li {
 
 html.dark #commentform textarea,
 html.dark #submit-bt {
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: rgb(200, 200, 200);
 }
 `)
 
