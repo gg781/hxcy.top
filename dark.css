@@ -14,94 +14,94 @@
 
 
 /* level 0 */
-html {
+html.dark {
   background: var(--darkhx-l0);
 }
 
-html #main-content {
+html.dark #main-content {
   background: none repeat scroll 0 0 var(--darkhx-l0);
 }
 
 
-html #top-bar,
-html .body-wrap,
-html #main-nav ul ul,
-html #main-nav ul li,
-html .dropdown-menu,
-html .footer-info {
+html.dark #top-bar,
+html.dark .body-wrap,
+html.dark #main-nav ul ul,
+html.dark #main-nav ul li,
+html.dark .dropdown-menu,
+html.dark .footer-info {
   background: var(--darkhx-l1);
 }
 
-html #breadcrumb,
-html #top-announce,
-html #post-header {
+html.dark #breadcrumb,
+html.dark #top-announce,
+html.dark #post-header {
   background: var(--darkhx-l2);
   border-bottom: none;
   color: var(--darkhx-l8);
 }
 
-html #breadcrumb a,
-html #top-announce a,
-html #post-header a {
+html.dark #breadcrumb a,
+html.dark #top-announce a,
+html.dark #post-header a {
   color: var(--darkhx-l8);
 }
 
 /* article flow items */
-html .widget-content,
-html .archive-thumb h2,
-html #archive-head,
-html .widget-title,
-html .su-spoiler-style-fancy {
+html.dark .widget-content,
+html.dark .archive-thumb h2,
+html.dark #archive-head,
+html.dark .widget-title,
+html.dark .su-spoiler-style-fancy {
   background: var(--darkhx-l1) !important;
   color: var(--darkhx-l8);
 }
 
-html .widget-content a {
+html.dark .widget-content a {
   color: var(--darkhx-l9);
 }
 
-html .archive-list li:hover h2 a {
+html.dark .archive-list li:hover h2 a {
   color: var(--darkhx-accent-0);
 }
 
 /* page navigation */
-html .page-nav a {
+html.dark .page-nav a {
   color: var(--darkhx-l9);
   background: var(--darkhx-l1);
 }
 
-html article .more-link {
+html.dark article .more-link {
   color: var(--darkhx-l1) !important;
   font-weight: 600;
 }
 
-html input.jump-page {
+html.dark input.jump-page {
   background: var(--darkhx-l0);
   margin-top: 2px;
   width: 30px;
   -webkit-text-fill-color: var(--darkhx-l9);
 }
 
-html .su-spoiler-title,
-html .entry table,
-html .entry table td,
-html .sc_act,
-html .su-box-content,
-html blockquote {
+html.dark .su-spoiler-title,
+html.dark .entry table,
+html.dark .entry table td,
+html.dark .sc_act,
+html.dark .su-box-content,
+html.dark blockquote {
   background: var(--darkhx-l5);
   color: var(--darkhx-l7);
 }
 
-html .sc_act:hover {
+html.dark .sc_act:hover {
   background: #8b8b8b;
 }
 
 /* spoiler */
-html .su-spoiler-style-fancy > .su-spoiler-title {
+html.dark .su-spoiler-style-fancy > .su-spoiler-title {
   background: var(--darkhx-l2);
 }
 
-html .su-spoiler-content {
+html.dark .su-spoiler-content {
   background: var(--darkhx-l4);
   display: flex;
   flex-direction: column;
@@ -109,43 +109,43 @@ html .su-spoiler-content {
 }
 
 /* article page */
-html .entry p,
-html .entry strong {
+html.dark .entry p,
+html.dark .entry strong {
   color: var(--darkhx-l9);
 }
 
-html .entry img {
+html.dark .entry img {
   border-color: var(--darkhx-l3);
   background: none;
 }
 
-html .dlbox .dlbox-title {
+html.dark .dlbox .dlbox-title {
   color: var(--darkhx-l8);
   background: var(--darkhx-l2);
 }
 
-html #author-box h3,
-html #related-posts h3,
-html #comments h3,
-html #commentform textarea,
-html .searchform div input,
-html .user-center,
-html .post-toolbar-report,
-html .box-title span {
+html.dark #author-box h3,
+html.dark #related-posts h3,
+html.dark #comments h3,
+html.dark #commentform textarea,
+html.dark .searchform div input,
+html.dark .user-center,
+html.dark .post-toolbar-report,
+html.dark .box-title span {
   background: var(--darkhx-l2);
 }
 
-html .dlbox,
-html #author-box .author-info,
-html .comment-body,
-html .commentlist .comment,
-html .comment-form,
-html #submit-bt,
-html #user-menu li {
+html.dark .dlbox,
+html.dark #author-box .author-info,
+html.dark .comment-body,
+html.dark .commentlist .comment,
+html.dark .comment-form,
+html.dark #submit-bt,
+html.dark #user-menu li {
   background: var(--darkhx-l1) !important;
 }
 
-html #commentform textarea,
-html #submit-bt {
+html.dark #commentform textarea,
+html.dark #submit-bt {
   -webkit-text-fill-color: var(--darkhx-l7);
 }
