@@ -119,7 +119,11 @@ html .entry img {
   background: none;
 }
 
-html .dlbox .dlbox-title,
+html .dlbox .dlbox-title {
+  color: var(--darkhx-l8);
+  background: var(--darkhx-l2);
+}
+
 html #author-box h3,
 html #related-posts h3,
 html #comments h3,
