@@ -1,109 +1,125 @@
-html.dark {
+:root {
+  --darkhx-l0: #212121;
+  --darkhx-l1: #2f2f2f;
+  --darkhx-l2: #353535;
+  --darkhx-l3: #373737;
+  --darkhx-l4: #474747;
+  --darkhx-l5: #575757;
+  --darkhx-l6: #8b8b8b;
+  --darkhx-l7: #c8c8c8;
+  --darkhx-l8: #eee;
+  --darkhx-l9: #fff;
+  
+}
+
+
+
+html {
   background: gray;
 }
 
-html.dark #main-content {
-  background: none repeat scroll 0 0 #212121;
+html #main-content {
+  background: none repeat scroll 0 0 var(--darkhx-l0);
 }
 
-html.dark #top-bar,
-html.dark .body-wrap,
-html.dark #main-nav ul ul,
-html.dark #main-nav ul li,
-html.dark .dropdown-menu {
-  background: #2f2f2f;
+html #top-bar,
+html .body-wrap,
+html #main-nav ul ul,
+html #main-nav ul li,
+html .dropdown-menu {
+  background: var(--darkhx-l1);
 }
 
-html.dark #breadcrumb,
-html.dark #top-announce,
-html.dark #post-header {
-  background: #373737;
+html #breadcrumb,
+html #top-announce,
+html #post-header {
+  background: var(--darkhx-l3);
   border-bottom: none;
-  color: rgb(200, 200, 200);
+  color: var(--darkhx-l7);
 }
 
-html.dark #breadcrumb a,
-html.dark #top-announce a,
-html.dark #post-header a {
-  color: rgb(200, 200, 200);
+html #breadcrumb a,
+html #top-announce a,
+html #post-header a {
+  color: var(--darkhx-l7);
 }
 
-html.dark .widget-content,
-html.dark .archive-thumb h2,
-html.dark #archive-head,
-html.dark .widget-title,
-html.dark .su-spoiler-style-fancy {
-  background: #2f2f2f !important;
-  color: rgb(200, 200, 200);
+html .widget-content,
+html .archive-thumb h2,
+html #archive-head,
+html .widget-title,
+html .su-spoiler-style-fancy {
+  background: var(--darkhx-l1) !important;
+  color: var(--darkhx-l7);
 }
 
-html.dark .widget-content a {
-  color: rgb(200, 200, 200);
+html .widget-content a {
+  color: var(--darkhx-l7);
 }
 
-html.dark .page-nav a {
-  color: rgb(200, 200, 200);
-  background: #2f2f2f;
+html .page-nav a {
+  color: var(--darkhx-l7);
+  background: var(--darkhx-l1);
 }
 
-html.dark article .more-link {
-  color: rgb(200, 200, 200) !important;
+html article .more-link {
+  color: var(--darkhx-l7) !important;
 }
 
-html.dark input.jump-page {
-  background: #575757;
+html input.jump-page {
+  background: var(--darkhx-l5);
   margin-top: 2px;
   width: 30px;
-  -webkit-text-fill-color: rgb(200, 200, 200);
+  -webkit-text-fill-color: var(--darkhx-l7);
 }
 
-html.dark .su-spoiler-title,
-html.dark .entry table,
-html.dark .entry table td,
-html.dark .sc_act,
-html.dark .su-box-content,
-html.dark blockquote {
-  background: #575757;
-  color: rgb(200, 200, 200);
+html .su-spoiler-title,
+html .entry table,
+html .entry table td,
+html .sc_act,
+html .su-box-content,
+html blockquote {
+  background: var(--darkhx-l5);
+  color: var(--darkhx-l7);
 }
 
-html.dark .sc_act:hover {
+html .sc_act:hover {
   background: #8b8b8b;
 }
 
-html.dark .su-spoiler-content {
-  background: #474747;
+html .su-spoiler-content {
+  background: var(--darkhx-l4);
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-html.dark .entry img {
+html .entry img {
   border: none;
   background: none;
 }
 
-html.dark .dlbox,
-html.dark #author-box h3,
-html.dark #related-posts h3,
-html.dark #comments h3,
-html.dark #commentform textarea,
-html.dark .searchform div input,
-html.dark .user-center {
-  background: #474747;
+html .dlbox,
+html #author-box h3,
+html #related-posts h3,
+html #comments h3,
+html #commentform textarea,
+html .searchform div input,
+html .user-center {
+  background: var(--darkhx-l4);
 }
 
-html.dark .dlbox .dlbox-title,
-html.dark #author-box .author-info,
-html.dark .comment-body,
-html.dark .commentlist .comment,
-html.dark .comment-form,
-html.dark #submit-bt,
-html.dark #user-menu li {
-  background: #353535 !important;
+html .dlbox .dlbox-title,
+html #author-box .author-info,
+html .comment-body,
+html .commentlist .comment,
+html .comment-form,
+html #submit-bt,
+html #user-menu li {
+  background: var(--darkhx-l2) !important;
 }
 
-html.dark #commentform textarea,
-html.dark #submit-bt {
-  -webkit-text-fill-color: rgb(200, 200, 200);
+html #commentform textarea,
+html #submit-bt {
+  -webkit-text-fill-color: var(--darkhx-l7);
 }
