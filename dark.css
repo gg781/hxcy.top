@@ -264,3 +264,23 @@ html #ranking-item select {
   background: var(--darkhx-l0);
   color: var(--darkhx-l9);
 }
+
+/* color palttle replacment */
+html [color="#351755"],
+html [style*='color:#351755'],
+html [style*='color: #351755']{
+  color: #6e40a0 !important;
+}
+
+html [color="#3812b1"],
+html [style*='color:#3812b1'],
+html [style*='color: #3812b1']{
+  color: #552ade !important;
+}
+
+html [color="#000080"],
+html [style*='color:#000080'],
+html [style*='color: #000080']{
+  color: #164cff !important;
+}
+
