@@ -284,3 +284,11 @@ html [style*='color: #000080']{
   color: #164cff !important;
 }
 
+/* misc tweaking */
+html .logoimg {
+  scale: 83%;
+}
+
+html div[id^="barrage_"] {
+  z-index: 99;
+}
