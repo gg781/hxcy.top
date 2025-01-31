@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         幻想次元-深色模式
 // @namespace    https://github.com/huankong233/hxcy.top
-// @version      0.0.4
+// @version      0.0.5
 // @description  深色模式
-// @author       huan_kong
-// @author       https://huankong.top
+// @author       https://github.com/huankong233
+// @author       https://github.com/gg781
 // @match        https://hxcy.top/*
 // @icon         https://hxcy.top/favicon.ico
 // @grant        GM_getValue
