@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         幻想次元-深色模式
 // @namespace    https://github.com/huankong233/hxcy.top
-// @version      0.0.5
+// @version      0.0.6
 // @description  深色模式
 // @author       https://github.com/huankong233
 // @author       https://github.com/gg781
@@ -291,6 +291,8 @@ html.dark [style*='color: #000080']{
 }
 
 html.dark .logoimg {
+  width: 180px;
+  height: 48px;
   scale: 83%;
 }
 
